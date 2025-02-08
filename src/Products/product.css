@@ -1,0 +1,26 @@
+.displaying_products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: max-content;
+    background-color: white;
+    overflow: auto;
+}
+.left_content{
+    display: flex;
+    img{
+        padding: 10px;
+        width: 50px;
+    }
+    p{
+        padding: 10px;
+        color: gray;
+        font-size: 12px;
+    }
+}
